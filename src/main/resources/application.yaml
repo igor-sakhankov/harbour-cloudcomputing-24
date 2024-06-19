@@ -1,9 +1,16 @@
 spring.application.name:
-    harbour-cloudcomputing-24
+  harbour-cloudcomputing-24
 server:
-    tomcat:
-        threads:
-            max: 1
-            min-spare: 1
+  tomcat:
+    threads:
+      max: 1
+      min-spare: 1
 
-
+## DynamoDB configuration ##
+dynamodb:
+  host: localhost
+  port: 8000
+aws:
+  awsAccessKeyId: test
+  awsSecretAccessKey: test
+  region: ${AWS_REGION:eu-west-1}
