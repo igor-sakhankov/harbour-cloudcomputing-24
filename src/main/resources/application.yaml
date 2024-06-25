@@ -13,4 +13,4 @@ dynamodb:
 aws:
   awsAccessKeyId: test
   awsSecretAccessKey: test
-  region: ${AWS_REGION:eu-west-1}
+  region: ${AWS_REGION:eu-east-1}

@@ -36,6 +36,7 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.springframework.cloud:spring-cloud-starter-circuitbreaker-resilience4j")
+    implementation("org.springframework.cloud:spring-cloud-starter-aws-messaging:2.2.6.RELEASE")
     implementation("org.apache.httpcomponents.client5:httpclient5:5.3.1")
     implementation("software.amazon.awssdk:ec2:2.20.39")
     implementation("software.amazon.awssdk:sts:2.20.39")
